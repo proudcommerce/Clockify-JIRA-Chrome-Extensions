@@ -1,6 +1,6 @@
 # Clockify JIRA Chrome Extension
 
-Links JIRA tickets in Clockify entries.
+Adds an icon to time entry and links to JIRA ticket issue if found.
 
 ## Installation
 
