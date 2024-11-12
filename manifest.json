@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "ProudCommerce Clockify Jira Chrome Extensions",
+  "version": "1.0",
+  "description": "Links JIRA tickets in Clockify entries",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://app.clockify.me/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
