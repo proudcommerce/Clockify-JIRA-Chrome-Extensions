@@ -4,11 +4,13 @@ Adds an icon to time entry and links to JIRA ticket issue if found.
 
 ## Installation
 
-1. Activate chrome extensions developer mode
-2. Upload folder (button: "load unpacked extension")
-3. Activate extension
-4. Reload clockify
-5. That´s it ;-)
+1. Activate chrome extensions developer mode (`chrome://extensions/`)
+2. [Download extension](https://github.com/proudcommerce/Clockify-JIRA-Chrome-Extensions/archive/refs/heads/main.zip)
+3. Replace `YOUR_JIRA_URL` in content.js with your JIRA instance url
+4. Upload folder using button "load unpacked extension"
+5. Activate extension
+6. Reload clockify
+7. That´s it ;-)
 
 ## License
 
