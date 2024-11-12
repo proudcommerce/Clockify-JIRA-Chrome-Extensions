@@ -1,4 +1,4 @@
-const JIRA_BASE_URL = "https://internetfabrik.atlassian.net/browse/";
+const JIRA_BASE_URL = "YOUR_JIRA_URL/browse/";
 
 function addJiraLinkIcon(element) {
     const jiraRegex = /([A-Z]+-\d+)/g;
