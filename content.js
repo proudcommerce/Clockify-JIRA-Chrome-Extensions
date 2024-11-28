@@ -6,7 +6,7 @@ function addJiraLinkIcon(element) {
     const matches = [...textContent.matchAll(jiraRegex)];
 
     if (matches.length > 0) {
-        const parentContainer = element.closest('.cl-col-responsive.cl-description-col');
+        const parentContainer = element.closest('.cl-fake-input-wrapper');
         if (parentContainer && !parentContainer.previousSibling?.classList?.contains('jira-link-icon')) {
             const ticketId = matches[0][0];
             const jiraUrl = JIRA_BASE_URL + ticketId;
@@ -30,7 +30,7 @@ function observeNewTickets() {
         mutations.forEach((mutation) => {
             mutation.addedNodes.forEach((node) => {
                 if (node.nodeType === Node.ELEMENT_NODE) {
-                    const ticketElements = node.querySelectorAll('[data-cy="time-entry-description"]');
+                    const ticketElements = node.querySelectorAll('[data-cy="time-entry-description"], .cl-form-control.cl-fake-input');
                     ticketElements.forEach((el) => addJiraLinkIcon(el));
                 }
             });
