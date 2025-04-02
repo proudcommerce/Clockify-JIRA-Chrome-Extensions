@@ -20,6 +20,13 @@ Adds an icon to time entry and links to JIRA ticket issue if found.
 4. Activate extension
 5. Reload clockify
 
+
+## Changelog
+
+* 1.2.0	Support tasks
+* 1.1.0	Support details summary
+* 1.0.0	Initial Release
+
 ## License
 
     This program is free software: you can redistribute it and/or modify
