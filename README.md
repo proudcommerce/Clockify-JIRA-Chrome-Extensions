@@ -23,6 +23,7 @@ Adds an icon to time entry and links to JIRA ticket issue if found.
 
 ## Changelog
 
+* 1.2.1 Fix summary/details report
 * 1.2.0	Support tasks
 * 1.1.0	Support details summary
 * 1.0.0	Initial Release
